@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.wrapper {
+  max-width: 900px;
+}
+
+header.two-split {
+  height: 3rem;
+  padding: 3rem 0 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  /* border-image-source: url("imgs/hr-img.png");
+  border-image-slice: 20;
+  border-image-width: 20; */
+  border-bottom: 15px solid lightslategray;
+}
+
+header.two-split .text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+header.two-split .nav-text {
+  width: 100%;
+  margin-left: 1rem;
+}
+
+header.two-split h1 {
+  font-size: 2rem;
+}
+
+header.two-split h4 {
+  text-transform: uppercase;
+}
+
+.logo-bar {
+  width: 14rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.logo-bar img:nth-child(6) {
+  margin-right: 0.5rem;
+}
