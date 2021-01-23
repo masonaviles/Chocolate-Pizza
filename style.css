@@ -96,6 +96,7 @@ main {
 
 .ingredients {
   font-family: arial;
+  color: rgb(37, 37, 37);
   background: url(imgs/list-bg.png);
   padding: 2rem;
 }
