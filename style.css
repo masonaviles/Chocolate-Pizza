@@ -12,6 +12,7 @@ body {
 }
 
 header.two-split {
+  font-family: arial;
   height: 3rem;
   padding: 3rem 0 2rem;
   display: flex;
@@ -62,6 +63,7 @@ main {
 }
 
 .article-title {
+  font-family: arial;
   margin-bottom: 2rem;
 }
 
@@ -84,4 +86,31 @@ main {
   color: gray;
   text-indent: 2rem;
   letter-spacing: .05rem;
+}
+
+.ingredients {
+  font-family: arial;
+  background: url(imgs/list-bg.png);
+  padding: 2rem;
+}
+
+.ingredients ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 15rem;
+  padding: 0 2rem;
+  margin-left: 1rem;
+  list-style-image: url('sqpurple.gif');
+}
+
+.ingredients li {
+  width: 50%;
+  font-size: 1.5rem;
+  margin: 6px 0;
+  display: flex;
+}
+
+.ingredients input {
+  margin-right: 1rem;
 }
