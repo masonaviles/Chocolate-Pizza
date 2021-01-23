@@ -54,7 +54,7 @@ header.two-split h4 {
   align-content: center;
 }
 
-.logo-bar img:nth-child(6) {
+.logo-bar a:nth-child(6) {
   margin-right: 0.5rem;
 }
 
