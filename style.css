@@ -56,3 +56,32 @@ header.two-split h4 {
 .logo-bar img:nth-child(6) {
   margin-right: 0.5rem;
 }
+
+main {
+  margin: 4rem 0;
+}
+
+.article-title {
+  margin-bottom: 2rem;
+}
+
+.article-title h2 {
+  font-size: 3rem;
+}
+
+.sub-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-transform: uppercase;
+  color: grey;
+}
+
+.article-body p {
+  font-size: 1.2rem;
+  margin: 2rem 0;
+  line-height: 1.5rem;
+  color: gray;
+  text-indent: 2rem;
+  letter-spacing: .05rem;
+}
